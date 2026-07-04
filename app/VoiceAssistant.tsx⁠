@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react' ;
 
 export function VoiceAssistant({ text, lang }: { text: string; lang: 'en' | 'hi' | 'kn' }) {
   const [speaking, setSpeaking] = useState(false);
