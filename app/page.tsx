@@ -5,7 +5,7 @@ import { VoiceAssistant, FloatingMic } from './VoiceAssistant';
 
 export default function JanSevaPortal() {
   const [lang, setLang] = useState<'en' | 'hi' | 'kn' | null>(null);
-  const [tab, setTab] = useState<'health' | 'loan' | 'banking'>('health');
+  const [tab, setTab] = useState<'health' | 'loan' | 'banking'>('health') ;
 
   // 1. Language Gateway Screen (Shown First)
   if (!lang) {
